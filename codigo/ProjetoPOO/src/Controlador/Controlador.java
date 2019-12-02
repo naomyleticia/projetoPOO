@@ -6,6 +6,14 @@ import modelo.Aluno;
 import modelo.Professor;
 
 public class Controlador {
+	
+	Controlador controlador = new Controlador();
+
+	int id;
+	int cargaHoraria;
+	String materia;
+	int escolha;
+	Professor professor;
 
 	private ArrayList<Professor> professores;
 
@@ -90,10 +98,9 @@ public class Controlador {
 
 			}
 		}
+
 	}
 
-
-
-
-
 }
+
+

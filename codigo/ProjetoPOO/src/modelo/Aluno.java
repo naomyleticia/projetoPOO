@@ -11,7 +11,7 @@ public class Aluno extends Pessoa {
 	
 	}
     
-    //sobrescrita
+    
     public String getNome() {
 		return "Aluno: " + super.getNome();
 	}

@@ -13,7 +13,7 @@ public abstract class Pessoa{
 			this.nome = nome;
 			
 		}
-		//sobrecarga
+		
 		public Pessoa(String sexo, String nome) {
 			this.sexo = sexo;
 			this.nome = nome;

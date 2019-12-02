@@ -3,7 +3,7 @@ package modelo;
 public class Professor extends Pessoa{
 
 	private int cargaHoraria;
-	private String Materia;
+	private String materia;
 	
 	public Professor(String nome, String materia, String cpf, String sexo, String Materia, int cargaHoraria, int id) {
 		super(id, nome, cpf, sexo);
@@ -23,11 +23,11 @@ public class Professor extends Pessoa{
 	}
 	
 	public String getMateria() {
-		return Materia;
+		return materia;
 	}
 	
 	public void setMateria(String materia) {
-		Materia = materia;
+		materia = materia;
 	}
 
 }
